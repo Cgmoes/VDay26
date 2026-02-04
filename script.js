@@ -12,20 +12,10 @@ const yesButtonStyle = window.getComputedStyle(yesButton);
 const maxYesWidth = parseFloat(yesButtonStyle.maxWidth);
 
 // array of gifs - in order
-const gifs = [
-    "assets/images/catheart.gif",
-    "assets/images/catcrying3.gif",
-    "assets/images/catcrying.gif",
-    "assets/images/catcrying2.gif"
-];
+const gifs = [ "assets/images/catheart.gif", "assets/images/catcrying3.gif", "assets/images/catcrying.gif", "assets/images/catcrying2.gif" ];
 
 // array of messages
-const buttonMessages = [
-    "Are you sure??",
-    "please",
-    "PLEASE",
-    "pretty please"
-];
+const buttonMessages = [ "Are you sure??", "please", "PLEASE", "PRETTY PLEASE" ];
 
 // Function to move the no button to a random position, avoiding the gif area
 function moveNoButtonRandomly() {
